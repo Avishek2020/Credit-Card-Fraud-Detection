@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the saved model
-model = joblib.load('fraud_detection_model.pkl')
+model = joblib.load('./fraud_detection_model.pkl')
 
 # Set up the Streamlit app
 st.title('Fraud Detection App')
